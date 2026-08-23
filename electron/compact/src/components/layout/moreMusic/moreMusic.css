@@ -1,0 +1,205 @@
+.containerMoreInfos{
+    width: 100vw;
+    height: 100vh;
+    z-index: 99999;
+
+    position: absolute;
+    background-color: black;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.activeMore{
+    display: flex !important;
+}
+
+.optionsMore{
+    width: 90%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    z-index: 3;
+}
+
+.optionsMore img{
+    filter: invert(100%);
+    transform: rotate(90deg);
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.optionsMore img:hover{
+    opacity: 0.6;
+}
+
+
+
+.imageMore{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 3;
+}
+
+.imageSelect {
+    width: 95%;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.imageSelect:hover{
+    opacity: 0.9;
+}
+
+.nameMore{
+    width: 90%;
+    height: 10%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.activeHeart img{
+    filter: invert(100%);
+}
+
+.nameMore p:hover{
+    opacity: 0.6;
+}
+
+.nameMore img {
+    margin-left: auto;
+    width: 20px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.nameMore img:hover{
+    opacity: 0.6;
+}
+
+.progressBarMore{
+    width: 95%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.progressMore{
+    width: 90%;
+    height: 15px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.384);
+    cursor: pointer;
+}
+
+.progressMore:hover {
+    opacity: 0.8;
+}
+
+.more{
+    width: 2%;
+    height: 15px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    position: relative;
+    display: block;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.org{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    height: 30px;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.org span{
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.replayOptions{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+    z-index: 3;
+}
+
+.replayOptions img{
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.replayOptions img:hover{
+    opacity: 0.8;
+}
+
+.play{
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.repetir{
+    position: absolute;
+    left: 20px;
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.invertido {
+    transform: rotate(180deg);
+}
+
+.mix{
+    position: absolute;
+    width: 340px;
+    height: 110px;
+    top: 59%;
+}
+
+.mixPause{
+    height: 40px;
+    top: 64.5%;
+}

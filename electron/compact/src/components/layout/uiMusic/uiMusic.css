@@ -1,0 +1,72 @@
+.containerMusic{
+    width: 360px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.activeMusic{
+    display: none;
+}
+
+.activeName p{
+    color: aqua;
+}
+
+.invisibleDiv{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 10px;
+}
+
+.containerMusic:hover{
+    opacity: 0.6;
+}
+
+.imgMusic{
+    width: 50px;
+    border-radius: 10px;
+}
+
+.imgMusic img{
+    width: 50px;
+    border-radius: 10px;
+}
+
+.nameMusic{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.time{
+    font-size: 0.8rem;
+    color: rgb(141, 141, 141);
+}
+
+.moreMusic{
+    margin-left: auto;
+}
+
+.moreMusic img{
+    width: 20px;
+    filter: invert(100%);
+}
+
+.align{
+    margin-top: 11px;
+    margin-right: 1px;
+}
