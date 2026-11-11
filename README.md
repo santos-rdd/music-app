@@ -32,32 +32,4 @@ Pausado / Não mantido.
 
 No momento não tenho planos de retomar este repositório, mas mantenho o código público como registro histórico da minha evolução no desenvolvimento de software e aprendizado de novas tecnologias.
 
-🚀 Como Executar (Localmente)
-
-Se você quiser rodar o projeto para visualizar a interface:
-
-Clone o repositório:
-
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
-
-Acesse a pasta do projeto:
-
-cd seu-repositorio
-
-
-Instale as dependências:
-
-npm install
-# ou
-yarn install
-
-
-Inicie a aplicação em modo de desenvolvimento:
-
-npm start
-# ou
-yarn start
-
-
 Criado como parte da minha jornada de aprendizado em desenvolvimento web e desktop.
